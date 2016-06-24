@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+          <title>Freedom Belarus</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://freedombelarus.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Freedom Belarus Full Atom Feed" />
+        <link href="https://freedombelarus.github.io/feeds/soft.atom.xml" type="application/atom+xml" rel="alternate" title="Freedom Belarus Categories Atom Feed" />
+        <link rel="stylesheet" href="https://freedombelarus.github.io/theme/css/styles.css" />
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+
+
+    <meta name="tags" content="Софт" />
+    <meta name="tags" content="Анонимность" />
+    <meta name="tags" content="Tor" />
+    <meta name="tags" content="Tails" />
+    <meta name="tags" content="Microsoft" />
+    <meta name="tags" content="Windows" />
+    <meta name="tags" content="Linux" />
+
+</head>
+
+<body id="index" class="home">
+    <nav id="menu" class="menu">
+        <div class="content">
+            <div class="mobile-only">
+                <a id="menu-btn" href="#menu">Меню</a>
+            </div>
+            <ul id="menu-items" class="menu__items">
+                <li class="mobile-hide"><a href="https://freedombelarus.github.io">Главная</a></li>
+                <li class="mobile-hide"><a href="https://freedombelarus.github.io/categories.html">Категории</a></li>
+                <li class="mobile-hide"><a href="https://freedombelarus.github.io/tags.html">Теги</a></li>
+                <li class="mobile-hide"><a href="https://freedombelarus.github.io/archives.html">Архив</a></li>
+            </ul>
+        </div>
+    </nav><!-- /#menu -->
+    <header id="banner" class="banner">
+        <h1>
+            <a href="https://freedombelarus.github.io/">Freedom Belarus</a>
+        </h1>
+        <h3>
+  Обзор и разбор программы Tor
+        </h3>
+    </header><!-- /#banner -->
+<section id="content" class="content main">
+  <header>
+    <h2 class="entry-title">
+ 
+  </header>
+  <footer class="post-info">
+    <abbr class="published" title="2016-06-23T13:05:00+03:00">
+      Чцв 23 Чэрвень 2016
+    </abbr>
+    <address class="vcard author">
+          <a class="url fn" href="https://freedombelarus.github.io/author/anonymous.html">Anonymous</a>
+    </address>
+  </footer><!-- /.post-info -->
+  <div class="entry-content">
+    <p>Как я уже говорил, я понимаю, что многие пользователи сети Интернет знают о существовании <strong>Tor</strong>. Но! Мне правда очень важно убедиться в том, что абсолютно все читатели понимают, о чём идёт речь. Потому что <strong>Tor</strong> будет находиться в основе большинства ПО, которые мы рассмотрим в этом блоге в будущем. В данном посте я постараюсь рассказать простым языком, что такое <strong>Tor</strong> и как его установить.</p>
+<h2>Что это такое?</h2>
+<p><strong>Tor</strong> - это программа, которую вы можете установить на свой компьютер. Она была создана с целью обеспечения анонимности в сети Интернет. Очень активно развивается а также является одной из самых популярных программ данного типа.</p>
+<h2>Как это работает?</h2>
+<p>Когда вы запускаете <strong>Tor</strong>, тот в свою очередь начинает соединяться с другими программами <strong>Tor</strong> на других компьютерах (<em>узлами</em>). Связавшись с достаточным количеством <em>узлов</em>, программа выбирает из них 3 случайных и <em>(образно говоря)</em> выстраивает их друг за другом. После этого, каждый ваш запрос в сеть Интернет (будь то открытие сайта или еще что-либо) прежде, чем попасть на целевой сервер (Google, VK, Facebook) сначала пройдет через этих 3 узла. Таким образом, с точки зрения целевого сервера, вы сделали запрос с компьютера, который оказался последним в цепочке. И да, вы, просто установив <strong>Tor</strong>, никогда не будете "замыкающим" в цепочке. Для этого нужно провести дополнительные настройки.</p>
+<p>В целом это все, что вам нужно знать о <strong>Tor</strong>. Конечно, там есть множество нюансов, о которых легче просто не упоминать, чтобы не запутать, но для схематичного рисунка, думаю, достаточно.</p>
+<h2>Где это взять?</h2>
+<p>Способов получить <strong>Tor</strong> к себе на компьютер несколько, и я вам расскажу о двух из них. Первый очень простой - зайти на <a href="https://www.torproject.org/download/download-easy.html.en">официальный сайт</a> и скачать оттуда подходящий дистрибутив. Я предполагаю, что вы используете <strong>Windows</strong> <em>(хотя я не думаю, что это хорошая идея, но об этом позже)</em>.</p>
+<p>Второй способ - запросить нужный дистрибутив с помощью электронной почты. Уверен она сейчас есть у всех. Очень удобно использовать этот способ на случай, если у вас нет другой возможности получить данное ПО. Достаточно просто отправить название вашей платформы (windows, linux, osx - выберете подходящий) на адрес <a href="mailto:gettor@torproject.org">gettor@torproject.org</a>. В ответ на это письмо придет другое письмо, где вы сможете скачать <strong>Tor</strong> по разным ссылкам (например на Google Docs), или же файлом из самого письма.</p>
+<p><strong>ВАЖНО!</strong> Никогда не скачивайте <strong>Tor</strong> с других источников, особенно если в собираетесь пользоваться им серьезно. Это при разных обстоятельствах может стоить вам свободы или жизни.</p>
+<h2>Установка</h2>
+<p>В комплект с самим <strong>Tor</strong> с некоторых пор сразу входит интернет-браузер, который визуально очень похож на Firefox. Это можно сказать и есть Firefox, только немного модифицированный для более безопасного просмотра. Очень советую использовать всю связку вместе.</p>
+<p>Итак, надеюсь вы уже скачали, если нет, переходите по ссылке выше и скачивайте.</p>
+<p>В целом, разработчики <strong>Tor</strong> сделали все возможное, чтобы установка была максимально легкой и безпроблемной. Да и наверное только ленивый не писал об этом. Я даже уверен на 100%, что я не первый. Но я все же сделал несколько скриншотов, чтобы показать сам процесс.</p>
+<p><center><img alt="Step 1" src="https://freedombelarus.github.io/0002/1.png" /></center>
+<center><em>Запускаем</em></center></p>
+<p><center><img alt="Step 2" src="https://freedombelarus.github.io/0002/2.png" /></center>
+<center><em>Устанавливаем</em></center></p>
+<p><center><img alt="Step 3" src="https://freedombelarus.github.io/0002/3.png" /></center>
+<center><em>Заканчиваем установку</em></center></p>
+<p>После запуска, <strong>Tor Browser</strong> спросит у вас, есть ли у вас какие-либо особенности в подключении к сети (чаще всего достаточно нажать кнопку <em>Connect</em>).</p>
+<p><center><img alt="Step 4" src="https://freedombelarus.github.io/0002/4.png" /></center></p>
+<p>После чего вы увидите вот такой прогресс, который займет пару минут вашего времени (только во время первого запуска, далее все будет гораздо быстрее)</p>
+<p><center><img alt="Step 5" src="https://freedombelarus.github.io/0002/5.png" /></center></p>
+<p>Теперь осталось проверить, что все работает. Воспользуемся сервисом, который определяет местонахождение по IP-адресу и убедимся, что он где-нибудь в другой стране. <a href="http://www.geoip.co.uk/">Например вот этим</a>.</p>
+<p><center><img alt="Step 6" src="https://freedombelarus.github.io/0002/6.png" /></center></p>
+<p>Если вдруг что-то не работает - включите клиентские скрипты для данного сайта.</p>
+<p><center><img alt="Step 7" src="https://freedombelarus.github.io/0002/7.png" /></center></p>
+<p><strong>ВНИМАНИЕ!</strong> Не стоит делать это слишком часто. Только в случае крайней необходимости. Так как клиентские скрипты могут иметь уязвимости и разоблачить вас!</p>
+<h2>Общие правила безопасности при использовании Tor</h2>
+<p>Если вы хотите оставаться неизвестным, то вам стоит соблюдать следующие правила:</p>
+<p><strong>Старайтесь использовать https протокол (это когда в строке браузера зеленый замочек)</strong></p>
+<p><center><img alt="" src="https://freedombelarus.github.io/0002/8.png" /></center></p>
+<p>Дело в том, что ваш трафик проходит через другие компьютеры (это мы поняли ещё в самом начале). Тот <em>узел</em> который будет последним, отправит ваш запрос к сайту в том виде, в котором вы его изначально сформировали. Если вы используете http (без замочка), то все данные вашего запроса будут передаваться в открытом, не зашифрованном виде. В случае если этот узел будет принадлежать злоумышленнику, он без труда сможет прочитать какие-либо чувствительные данные. Например логин и пароль.</p>
+<p><strong>Не используйте аккаунты, которые вы используете с обычным браузером</strong></p>
+<p>Тут в целом все просто. Если воспользуетесь, будет понятно, кто вы есть. Стоит использовать выдуманную личность, которая <strong>АБСОЛЮТНО</strong> не связана с вашей обычной жизнью. И не входить в аккаунты этой личности со своего обычного браузера. Самое идеальное - оставаться читателем, а не писателем.</p>
+<p><strong>Не используйте torrent в Tor</strong></p>
+<p>Тут две причины. Во-первых, torrent создает нагрузку на сеть, так как трафик идет через несколько узлов. А во-вторых, torrent клиент может делать запросы и устанавливать соединения, о которых вы не знаете, минуя Tor. Также torrent клиент может передавать ваш реальный IP-адрес.</p>
+<p><strong>Не устанавливайте расширения и приложения в Tor</strong></p>
+<p>Они могут вытворять всякие непотребсва и также раскрыть вашу личность.</p>
+<p><strong>Не открывайте скаченные документы, пока вы находитесь в сети</strong></p>
+<p>Это важно. Даже безобидные docx могут нести в себе угрозу. <strong>НЕ ПРЕНЕБРЕГАЙТЕ ДАННЫМ ПРАВИЛОМ!</strong></p>
+<p><strong>Не изменяйте размер окна</strong></p>
+<p>Сайты бывают очень интересные и могут составить ваш идентификатор по разным параметрам (таких как разрешение монитора, установленные шрифты и т.п.) <strong>Tor Browser</strong> настроент так, чтобы вы были как и любой другой пользователь данного ПО. Должен отметить, что анонимность в общем и целом не про то, чтобы скрыть себя, а чтобы многие выглядели как один.</p>
+<h2>Немного важной информации</h2>
+<p>Очень важно, чтобы как можно больше людей пользовались <strong>Tor</strong>. Причина очень простая - сам факт того, что вы используете <strong>Tor</strong> видна со стороны провайдера, а значит и государства. Если всего несколько человек будет пользоваться <strong>Tor</strong>, а провайдеру\государству станет известно, что посредством <strong>Tor</strong> производят неугодные действия, то легче, чем проводить разбирательства, просто накрыть всех пользователей. Если нас будет достаточно много, провернуть такой трюк без лишней шумихи будет крайне тяжело. Поэтому ставьте <strong>Tor</strong> и друзей попросите.</p>
+<h2>Почему использовать Windows не самая лучшая затея</h2>
+<p>Ну для начала можно вспомнить большую шумиху на тему слежки Microsoft за пользователями Winodws. Но должен сказать, если вы не планируете становиться активистом, а просто хотите общаться, быть в курсе событий, может быть как-то поддерживать их физически, то думаю вам не особо есть чего боятся, вы не станете целью, которую нужно опознать и ликвидировать. Однако, если уж вы хотите быть в первых рядах - вам стоит познакомиться с Linux или хотя бы начать использовать <a href="https://tails.boum.org/"><strong>Tails</strong></a>. <strong>Tails</strong> это такой Linux, который изначально настроен для работы в сети <strong>Tor</strong>. Вам не нужно будет слишком сильно заморачиваться, все там уже есть, а установить данный дистрибутив можно на флешку, не трогая вашу основную систему. А в случае шумихи, от флешки легко можно будет избавиться.</p>
+<p>На этом пожалуй все, ставьте <strong>Tor</strong>, рассказывайте о статье в социальных сетях, помогайте настроить <strong>Tor</strong> друзьям. Если я что-то пропустил - дайте знать в комментариях, а я добавлю это в статью.</p>
+<p>Чуть позже мы вернемся к вопросу, для чего еще можно использовать <strong>Tor</strong>.</p>
+  </div><!-- /.entry-content -->
+  <div class="tags">
+      <a class="article__tag" href="https://freedombelarus.github.io/tag/soft.html">
+        Софт<sup>3</sup>      </a>
+      <a class="article__tag" href="https://freedombelarus.github.io/tag/anonimnost.html">
+        Анонимность<sup>2</sup>      </a>
+      <a class="article__tag" href="https://freedombelarus.github.io/tag/tor.html">
+        Tor<sup>2</sup>      </a>
+      <a class="article__tag" href="https://freedombelarus.github.io/tag/tails.html">
+        Tails<sup>1</sup>      </a>
+      <a class="article__tag" href="https://freedombelarus.github.io/tag/microsoft.html">
+        Microsoft<sup>1</sup>      </a>
+      <a class="article__tag" href="https://freedombelarus.github.io/tag/windows.html">
+        Windows<sup>1</sup>      </a>
+      <a class="article__tag" href="https://freedombelarus.github.io/tag/linux.html">
+        Linux<sup>1</sup>      </a>
+  </div>
+  <div class="social-buttons">
+    <button class="sharer button" type="button" data-sharer="vk" data-caption="Как я уже говорил, я понимаю, что многие пользователи сети Интернет знают о существовании Tor. Но! Мне правда очень важно убедиться в том, что ..." data-title="Обзор и разбор программы Tor" data-url="https://freedombelarus.github.io/about-tor.html">VK</button>
+    <button class="sharer button" type="button" data-sharer="facebook" xdata-url="https://freedombelarus.github.io/about-tor.html">Facebook</button>
+    <button class="sharer button" type="button" data-sharer="twitter" data-title="Обзор и разбор программы Tor" data-hashtags="belarus,freedom,internet" data-url="https://freedombelarus.github.io/about-tor.html">Twitter</button>
+    <!-- <button class="sharer" type="button" data-sharer="telegram" data-title="Обзор и разбор программы Tor" data-url="https://freedombelarus.github.io/about-tor.html">Telegram</button> -->
+  </div>
+<div id="disqus_thread"></div>
+<script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     */
+    /*var disqus_config = function () {
+        this.page.url = 'https://freedombelarus.github.io/about-tor.html';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'https://freedombelarus.github.io/about-tor.html'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };*/
+    (function() {  // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+
+        s.src = '//freedombelarus.disqus.com/embed.js';
+
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript></section>
+    <script src="https://freedombelarus.github.io/theme/js/jquery-3.0.0.min.js"></script>
+    <script type="text/javascript">
+        var menuBtn = $('#menu-btn');
+        var menuItems = $('#menu-items li');
+
+        menuBtn.click(function() {
+            menuItems.toggleClass('mobile-hide')
+            return false;
+        })
+    </script>
+    <script src="https://freedombelarus.github.io/theme/js/sharer.min.js"></script>
+</body>
+</html>

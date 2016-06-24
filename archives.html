@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+        <title>Freedom Belarus</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://freedombelarus.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Freedom Belarus Full Atom Feed" />
+        <link rel="stylesheet" href="https://freedombelarus.github.io/theme/css/styles.css" />
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+</head>
+
+<body id="index" class="home">
+    <nav id="menu" class="menu">
+        <div class="content">
+            <div class="mobile-only">
+                <a id="menu-btn" href="#menu">Меню</a>
+            </div>
+            <ul id="menu-items" class="menu__items">
+                <li class="mobile-hide"><a href="https://freedombelarus.github.io">Главная</a></li>
+                <li class="mobile-hide"><a href="https://freedombelarus.github.io/categories.html">Категории</a></li>
+                <li class="mobile-hide"><a href="https://freedombelarus.github.io/tags.html">Теги</a></li>
+                <li class="mobile-hide active"><a href="https://freedombelarus.github.io/archives.html">Архив</a></li>
+            </ul>
+        </div>
+    </nav><!-- /#menu -->
+    <header id="banner" class="banner">
+        <h1>
+            <a href="https://freedombelarus.github.io/">Freedom Belarus</a>
+        </h1>
+        <h3>
+  Архив
+        </h3>
+    </header><!-- /#banner -->
+      <section class="content main">
+        <dt>2016</dt>
+        <dd><a href="about-bitmessage.html">Обзор и разбор программы BitMessage</a></dd>
+        <dd><a href="about-tor.html">Обзор и разбор программы Tor</a></dd>
+        <dd><a href="about-me-and-blog.html">Обо мне и этом блоге</a></dd>
+      </section>
+    <script src="https://freedombelarus.github.io/theme/js/jquery-3.0.0.min.js"></script>
+    <script type="text/javascript">
+        var menuBtn = $('#menu-btn');
+        var menuItems = $('#menu-items li');
+
+        menuBtn.click(function() {
+            menuItems.toggleClass('mobile-hide')
+            return false;
+        })
+    </script>
+</body>
+</html>
