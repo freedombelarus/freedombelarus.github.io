@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+          <title>Freedom Belarus</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://freedombelarus.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Freedom Belarus Full Atom Feed" />
+        <link href="https://freedombelarus.github.io/feeds/soft.atom.xml" type="application/atom+xml" rel="alternate" title="Freedom Belarus Categories Atom Feed" />
+        <link rel="stylesheet" href="https://freedombelarus.github.io/theme/css/styles.css" />
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+
+
+    <meta name="tags" content="Софт" />
+    <meta name="tags" content="Анонимность" />
+    <meta name="tags" content="Tor" />
+    <meta name="tags" content="BitMessage" />
+
+</head>
+
+<body id="index" class="home">
+    <nav id="menu" class="menu">
+        <div class="content">
+            <div class="mobile-only">
+                <a id="menu-btn" href="#menu">Меню</a>
+            </div>
+            <ul id="menu-items" class="menu__items">
+                <li class="mobile-hide"><a href="https://freedombelarus.github.io">Главная</a></li>
+                <li class="mobile-hide"><a href="https://freedombelarus.github.io/categories.html">Категории</a></li>
+                <li class="mobile-hide"><a href="https://freedombelarus.github.io/tags.html">Теги</a></li>
+                <li class="mobile-hide"><a href="https://freedombelarus.github.io/archives.html">Архив</a></li>
+            </ul>
+        </div>
+    </nav><!-- /#menu -->
+    <header id="banner" class="banner">
+        <h1>
+            <a href="https://freedombelarus.github.io/">Freedom Belarus</a>
+        </h1>
+        <h3>
+  Обзор и разбор программы BitMessage
+        </h3>
+    </header><!-- /#banner -->
+<section id="content" class="content main">
+  <header>
+    <h2 class="entry-title">
+ 
+  </header>
+  <footer class="post-info">
+    <abbr class="published" title="2016-06-27T13:00:00+03:00">
+      Пан 27 Чэрвень 2016
+    </abbr>
+    <address class="vcard author">
+          <a class="url fn" href="https://freedombelarus.github.io/author/anonymous.html">Anonymous</a>
+    </address>
+  </footer><!-- /.post-info -->
+  <div class="entry-content">
+    <p>Самым ближайшим аналогом <strong>BitMessage</strong> в привычном многим интернет мире является электронная почта. Однако конечно же есть ряд отличий, о которых я вам и расскажу.</p>
+<p>Если вы еще не знакомы с <strong>Tor</strong>, то рекомендую прочитать <a href="https://freedombelarus.github.io/about-tor.html">этот пост</a>.</p>
+<h2>Что это такое?</h2>
+<p><strong>BitMessage</strong> - это программа для обмена сообщениями, которая работает без серверов (вроде Gmail или какого-либо другого провайдера почты). Использует криптографию и предназначена для работы в среде, где нет доверия к остальным узлам сети.</p>
+<h2>Как это работает?</h2>
+<p>При запуске, <strong>BitMessage</strong> соединяется с другими компьютерами, на которых установлен и запущен <strong>BitMessage</strong>. Когда вы отправляете сообщение для определенного адресата, оно шифруется специально для этого адресата и отправляется всем соединённым узлам. При получении нового сообщения, программа пытается его расшифровать. Если расшифровка удалась, это значит, что сообщение отправлялось именно вам и вы можете увидеть его содержимое. Вне зависимости от того, удалось ли расшифровать или нет, полученное письмо пересылается остальным соединенным узлам. Таким образом письмо может путешествовать по сети несколько дней, после чего его перестают передавать от узла к узлу, а программа удаляет письмо локально.</p>
+<h2>Если сообщение было расшифровано и получено, почему оно передается другим узлам?</h2>
+<p><strong>BitMessage</strong> очень заботится о том, чтобы нельзя было узнать, кто отправил и кто получил письмо. Если бы письмо, после достижения адресата перестало бы путешествовать по сети, можно было бы выяснить, какой именно компьютер получает сообщения для адресата.</p>
+<h2>Анонимность в BitMessage</h2>
+<p><strong>BitMessage</strong> сам по себе анонимен, так как все участники скрываются за адресами вида <em>BM-BcbRqcFFSQUUmXFKsPJgVQPSiFA3Xash</em> (коих каждый участник может создать очень много), однако позволяет использовать <strong>Tor</strong> для подключения к другим участникам сети. Подключение через <strong>Tor</strong> позволяет скрыть сам факт использования <strong>BitMessage</strong> с точки зрения внешнего наблюдателя (провайдер\государство\другой участник сети). Почему это важно я также описал в <a href="https://freedombelarus.github.io/about-tor.html">предыдущем посте</a>.</p>
+<h2>Другие функции BitMessage</h2>
+<p>В <strong>BitMessage</strong> есть функциональность рассылок и анонимных групп.</p>
+<p><strong>Рассылки</strong></p>
+<p>Каждый участник сети может создать адрес, на который другие участники могут подписаться и получать сообщения. Работает это аналогично каналам в <strong>Telegram</strong> или рассылкам в обычной почте. В практической части статьи мы обязательно попробуем подписаться на канал, созданный для этого блога.</p>
+<p><strong>Анонимные группы</strong></p>
+<p>Анонимные группы (в программе они называются <strong>chan</strong>) позволяют организовать общение, где каждый участник может отправлять и читать сообщения. Причем совсем необязательно указывать один из своих адресов. Анонимные группы нельзя подвергнуть цензуре, удалить или заблокировать. Именно по этой причине нам так интересна эта программа. На базе анонимных групп я и предлагаю построить никем не контролируемое, безопасное общение, где можно говорить с кем угодно и на любые темы.</p>
+<h2>Спам</h2>
+<p>Спама в сети очень немного, так как были приложены усилия сделать его неоправданно дорогим. Перед отправкой сообщения, ваш компьютер делает некоторые затратные вычисления. При отправке одного сообщения это почти не заметно, однако этот механизм позволяет сделать отправку большого количества сообщений довольно дорогостоящим занятием.</p>
+<h2>Установка</h2>
+<p>Как обычно, предупреждаю, <strong>не устанавливайте BitMessage, скаченный из неофициальных источников</strong>!</p>
+<p>Открываем наш <a href="https://freedombelarus.github.io/about-tor.html">недавно установленный Tor Browser</a> и переходим по адресу <a href="https://bitmessage.org/">https://bitmessage.org/</a></p>
+<p><center><img alt="Step 1" src="https://freedombelarus.github.io/0003/1.png" /></center>
+<center><em>Скачиваем</em></center></p>
+<p><strong>ВАЖНО!</strong> Скачивайте запускаемый файл в папку, в имени которой нет кириллических символов или символов пробела (<em>Например: D:\bitmsg</em>).</p>
+<p>Установка программы не требуется, так что мы переходим к запуску и настройке.</p>
+<h2>Запуск и настройка</h2>
+<p><strong>Обязательно запустите или не закрывайте Tor Browser</strong></p>
+<p><center><img alt="Step 2" src="https://freedombelarus.github.io/0003/2.png" /></center>
+<center><em>Запускаем</em></center></p>
+<p>Прежде чем запустить программу, мы проведем ряд настроек.</p>
+<p><center><img alt="Step 3" src="https://freedombelarus.github.io/0003/3.png" /></center>
+<center><em>Не соединяемся с сетью а проводим настройку</em></center></p>
+<p>Откроется окно настроек.</p>
+<p><center><img alt="Step 4" src="https://freedombelarus.github.io/0003/4.png" /></center>
+<center><em>Окно настроек</em></center></p>
+<p>На вкладке <em>Пользовательские</em> устанавливаем галочку <em>Запустить в переносном режиме</em>. В этом случае, <strong>BitMessage</strong> будет хранить все данные и настройки рядом с исполняемым файлом.</p>
+<p>Далее переходим на вкладку <em>Сетевые настройки</em> и укажем программе подключаться к сети используя <strong>Tor</strong>.</p>
+<p><center><img alt="Step 5" src="https://freedombelarus.github.io/0003/5.png" /></center>
+<center><em>Нужно выбрать тип прокси сервера "SOCKS5" и прописать в поле порт "9150"</em></center></p>
+<p>На этом первоначальную настройку мы закончили. Жмём "ОК", выходим из программы и запускаем заново, но в этот враз выбираем "Соединиться прямо сейчас". Если у вас выскочило окошко Брэндмауэра Windows, нажмите "Разрешить".</p>
+<p><center><img alt="Step 6" src="https://freedombelarus.github.io/0003/6.png" /></center>
+<center><em>Разрешаем соединения для BitMessage</em></center></p>
+<p>После перезапуска программы, можно перейти на вкладку <em>Network Status</em> и ждать, пока красная точка внизу справа станет желтой.</p>
+<p><center><img alt="Step 7" src="https://freedombelarus.github.io/0003/7.png" /></center>
+<center><em>Окно Network Status</em></center></p>
+<p>Когда индикатор подключение станет желтым - это значит, что мы успешно подключились к сети. Начнется синхронизация. Мы скачаем всю почту за последние несколько дней. Количество писем, которые осталось скачать мы увидим в поле <em>Object(s) to be synced</em></p>
+<p><center><img alt="Step 8" src="https://freedombelarus.github.io/0003/8.png" /></center>
+<center><em>Окно Network Status</em></center></p>
+<p>При первом подключении нужно будет скачать много писем, из-за чего ваши письма могут отправляться и получаться с довольно большим промежутком. Однако если вы будете часто пользоваться программой, то синхронизация сети не будет занимать много времени.</p>
+<p>Давайте создадим наш первый адрес и попробуем отправить первое письмо.</p>
+<p><center><img alt="Step 9" src="https://freedombelarus.github.io/0003/9.png" /></center>
+<center><em>Заходим на вкладку Messages и нажимаем кнопку New Identity внизу</em></center></p>
+<p><center><img alt="Step 10" src="https://freedombelarus.github.io/0003/10.png" /></center>
+<center><em>Окно генерации нового адреса</em></center></p>
+<p>Тут нас ждут две опции. Мы можем использовать случайно сгенерированный адрес (рекомендуемый способ), или сгенерировать адрес на базе парольной фразы. Второй способ удобен для тех, кому всегда нужно получить доступ к адресу в случае утери, однако это также менее безопасно. В диалоге написаны все преимущества и недостатки.</p>
+<p><strong>ВАЖНО!</strong> Если вы не создаете рассылки, то не привязывайтесь к адресам, меняйте их в любой момент. Рекомендую использовать случайный адрес.</p>
+<p>Теперь, когда у нас есть адрес, давайте отправим для пробы письмо на мой адрес. Очевидно, я не смогу круглосуточно проверять новые письма, поэтому отвечу вам как только смогу, однако обещаю ответить любому написавшему.</p>
+<p>Переходим на вкладку <em>Отправить</em>. Справа диалог нового письма. В поле <em>От</em> выбираем свежесозданный адрес, в поле кому вводим мой адрес:</p>
+<p><center><strong>BM-2cUgkzS4rmpfwYrYBPDiQx1axYUEYfThDA</strong></center></p>
+<p>Можете также добавить этот адрес в адресную книгу и писать мне по всем вопросам, которые у вас возникнут.</p>
+<p><center><img alt="Step 11" src="https://freedombelarus.github.io/0003/11.png" /></center>
+<center><em>Пишем новое письмо</em></center></p>
+<p>Тему и тело письма заполняйте на свое собственное усмотрение, а TTL (время жизни письма в сети) оставляйте по умолчанию. Жмите отправить. В левом нижнем углу вы увидите сообщение <em>Message queued</em></p>
+<p><center><img alt="Step 12" src="https://freedombelarus.github.io/0003/12.png" /></center>
+<center><em>Письмо отправлено</em></center></p>
+<p>Ответ придет на адрес, с которого вы отправляли сообщение. Новые сообщения появляются во вкладке Messages.</p>
+<p><center><img alt="Step 19" src="https://freedombelarus.github.io/0003/19.png" /></center>
+<center><em>Ответ на отправленное письмо</em></center></p>
+<h2>Вступаем в общий чат</h2>
+<p><a href="https://freedombelarus.github.io/about-me-and-blog.html">Как я уже говорил</a>, какие либо изменения в нашей стране я вижу только через беспрепятственную коллаборацию и общение обычных людей. Поэтому, для читателей этого блога, я создал общий чат, в котором хотел бы собрать как можно больше людей для совместного общения. Причем я хочу отметить важную вещь - <strong>я хотел бы, чтобы люди общались на любые темы</strong>, а не только околополитического характера.</p>
+<p>Итак, вступаем в чат. Для этого открываем вкладку <em>Chans</em> и нажимаем на кнопку <em>Add Chan</em>.</p>
+<p><center><img alt="Step 15" src="https://freedombelarus.github.io/0003/15.png" /></center>
+<center><em>Список каналов</em></center></p>
+<p>В открывшемся диалоге указываем <em>Присоединиться к chan</em>, а в <em>Имя chan</em> и <em>Bitmessage адрес chan</em> указываем следующие параметры</p>
+<p><center><strong>Имя chan: freedombelarus</strong></center></p>
+<p><center><strong>Bitmessage адрес chan: BM-2cVTwhcGmKCTPNF7z6qJpzk6KnJBRvdNYd</strong></center></p>
+<p>Важно ввести эти данные без изменений, иначе доступа в chan вы не получите.</p>
+<p><center><img alt="Step 16" src="https://freedombelarus.github.io/0003/16.png" /></center>
+<center><em>Добавление канала</em></center></p>
+<p>Всё. Теперь вы можете получать и отправлять сообщения в чат. Причём можете делать это анонимно (т.е. от имени чата), либо используя один из созданных вами ранее адресов (все так же анонимно, только можно отделять ваши реплики от остальных). Чтобы отправить сообщение в chan, переходим во вкладку <em>Отправить</em>, выбираем в поле <em>От</em> либо сам канал, либо ваш адрес, в поле кому вставляете адрес канала.</p>
+<p><center><img alt="Step 20" src="https://freedombelarus.github.io/0003/20.png" /></center>
+<center><em>Отправка сообщения в канал</em></center></p>
+<p>В остальном процесс схож с отправкой письма на конкретный адрес.</p>
+<h2>Подписываемся на рассылку этого блога</h2>
+<p>Если вам интересно получать уведомления о новых статьях в данном блоге, то предлагаю вам подписаться на рассылку. Действия аналогичны предыдущим.</p>
+<p>Открываем вкладку <em>Подписки</em>, нажимаем кнопку <em>Добавить новую подписку</em>. В поле имя вводим любое удобное для вас имя. Адрес рассылки:</p>
+<p><center><strong>BM-2cUpvPpaEygrTDbNQwZWa2YH82vQkaSzfB</strong></center></p>
+<p><em>Не обращайте внимание на то, что адреса в скриншоте и в тексте не совпадают.</em></p>
+<p><center><img alt="Step 14" src="https://freedombelarus.github.io/0003/14.png" /></center>
+<center><em>Новая подписка</em></center></p>
+<p>Теперь вы будете получать уведомления о новых записях.</p>
+<p><center><img alt="Step 18" src="https://freedombelarus.github.io/0003/18.png" /></center>
+<center><em>Новое сообщение из рассылки</em></center></p>
+<h2>Ложка дёгтя</h2>
+<p>Есть в программе пару неприятных моментов, которые скорее всего будут исправлены со временем:</p>
+<p><strong>Неочевидный интерфейс</strong></p>
+<p>На самом деле это уже исправленный интерфейс, но по прежнему остается не очевидным.</p>
+<p>Я думаю вы и сами уже почувствовали данный недостаток, однако я думаю, что с такой статьёй, как у меня, все становится несколько понятнее.</p>
+<p><strong>Отсутствие мобильного клиента</strong></p>
+<p>Вообще, строго говоря, я видел под <em>Android</em> одно приложение, однако я его не пробовал и не уверен, что оно рабочее. Я думаю, что с ростом популярности <strong>BitMessage</strong>, разработчики порадуют нас выбором, однако использование <strong>BitMessage</strong> на мобильных телефонах может быть затруднено как минимум по двум причинам:</p>
+<ul>
+<li>Большое использование передачи данных (все письма скачиваются и пересылаются дальше)</li>
+<li>Шифрование (требует мощности телефона, от чего батарея может начать разряжаться заметно сильнее)</li>
+</ul>
+<p><strong>Плохая локализация</strong></p>
+<p>Проект развивается, исходники открыты, думаю это вопрос времени, когда локализацию приведут в нормальный вид, однако, как по мне, это некритично, да и вы всегда можете поучаствовать в локализации.</p>
+<h2>Послесловие</h2>
+<p>Это основное приложение, о котором мне хотелось рассказать, когда я создавал этот блог. Однако, я не заканчиваю свою работу. Есть еще много приложений, на которые стоит обратить внимание. Я постараюсь рассказать всё, что знаю по этой теме.</p>
+<p>Желаю приятного общения! Делитесь данной статьёй с друзьями, помогайте им настраивать <strong>BitMessage</strong>, пишите комментарии, обращайтесь ко мне в <strong>BitMessage</strong>.</p>
+  </div><!-- /.entry-content -->
+  <div class="tags">
+      <a class="article__tag" href="https://freedombelarus.github.io/tag/soft.html">
+        Софт<sup>3</sup>      </a>
+      <a class="article__tag" href="https://freedombelarus.github.io/tag/anonimnost.html">
+        Анонимность<sup>2</sup>      </a>
+      <a class="article__tag" href="https://freedombelarus.github.io/tag/tor.html">
+        Tor<sup>2</sup>      </a>
+      <a class="article__tag" href="https://freedombelarus.github.io/tag/bitmessage.html">
+        BitMessage<sup>1</sup>      </a>
+  </div>
+  <div class="social-buttons">
+    <button class="sharer button" type="button" data-sharer="vk" data-caption="Самым ближайшим аналогом BitMessage в привычном многим интернет мире является электронная почта. Однако конечно же есть ряд отличий, о которых я ..." data-title="Обзор и разбор программы BitMessage" data-url="https://freedombelarus.github.io/about-bitmessage.html">VK</button>
+    <button class="sharer button" type="button" data-sharer="facebook" xdata-url="https://freedombelarus.github.io/about-bitmessage.html">Facebook</button>
+    <button class="sharer button" type="button" data-sharer="twitter" data-title="Обзор и разбор программы BitMessage" data-hashtags="belarus,freedom,internet" data-url="https://freedombelarus.github.io/about-bitmessage.html">Twitter</button>
+    <!-- <button class="sharer" type="button" data-sharer="telegram" data-title="Обзор и разбор программы BitMessage" data-url="https://freedombelarus.github.io/about-bitmessage.html">Telegram</button> -->
+  </div>
+<div id="disqus_thread"></div>
+<script>
+    var disqus_identifier = 'about-bitmessage';
+    (function() {  // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+
+        s.src = '//freedombelarus.disqus.com/embed.js';
+
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript></section>
+    <script src="https://freedombelarus.github.io/theme/js/jquery-3.0.0.min.js"></script>
+    <script type="text/javascript">
+        var menuBtn = $('#menu-btn');
+        var menuItems = $('#menu-items li');
+
+        menuBtn.click(function() {
+            menuItems.toggleClass('mobile-hide')
+            return false;
+        })
+    </script>
+    <script src="https://use.fontawesome.com/40aa8707f2.js" async></script>
+    <script src="https://freedombelarus.github.io/theme/js/sharer.min.js"></script>
+</body>
+</html>
