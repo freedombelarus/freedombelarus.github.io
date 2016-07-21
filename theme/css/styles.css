@@ -156,6 +156,7 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
     border-radius: 20px;
     padding: 2px 8px;
+    margin-bottom: 2px;
 }
 
 .article__tag:hover {
@@ -181,6 +182,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .entry-content img {
     max-width: 100%;
+    display: block;
+    margin: 0 auto;
 }
 
 ul {
@@ -215,4 +218,19 @@ ul {
     .article__actions {
         text-align: right;
     }
+}
+
+.entry-content pre {
+    border: 1px solid #eee;
+    border-radius: 3px;
+    padding: 20px;
+    color: black;
+}
+
+.entry-content code {
+    border: 1px solid #eee;
+    border-radius: 3px;
+    padding: 5px;
+    color: black;
+    display: inline-block;
 }

@@ -1,5 +1,105 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Freedom Belarus</title><link href="https://freedombelarus.github.io/" rel="alternate"></link><link href="https://freedombelarus.github.io/feeds/all.atom.xml" rel="self"></link><id>https://freedombelarus.github.io/</id><updated>2016-06-30T11:45:00+03:00</updated><entry><title>Обзор и разбор программы Telegram</title><link href="https://freedombelarus.github.io/about-telegram.html" rel="alternate"></link><published>2016-06-30T11:45:00+03:00</published><author><name>Anonymous</name></author><id>tag:freedombelarus.github.io,2016-06-30:about-telegram.html</id><summary type="html">&lt;p&gt;Сегодня я бы хотел затронуть один довольно популярный мессенджер, который называется &lt;strong&gt;Telegram&lt;/strong&gt;.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Freedom Belarus</title><link href="https://freedombelarus.github.io/" rel="alternate"></link><link href="https://freedombelarus.github.io/feeds/all.atom.xml" rel="self"></link><id>https://freedombelarus.github.io/</id><updated>2016-07-21T17:00:00+03:00</updated><entry><title>ZeroNet - интересный проект с человеческим лицом</title><link href="https://freedombelarus.github.io/zeronet-interesnyi-proekt-s-chelovecheskim-litsom.html" rel="alternate"></link><published>2016-07-21T17:00:00+03:00</published><author><name>Anonymous</name></author><id>tag:freedombelarus.github.io,2016-07-21:zeronet-interesnyi-proekt-s-chelovecheskim-litsom.html</id><summary type="html">&lt;p&gt;Вернёмся к нашим криптоштукам. Сегодня в студии очень интересный проект с легкой установкой и с человеческим лицом. По крайней мере в моём случае глаз порадовался увидеть что-то красивое и распределенное.&lt;/p&gt;
+&lt;p&gt;Хочу отметить радостную новость о том, что &lt;a href="https://freedombelarus.github.io/about-bitmessage.html"&gt;&lt;strong&gt;BitMessage&lt;/strong&gt;&lt;/a&gt; начал набирать небольшую аудиторию и даже принёс свои первые плоды. Данный материал был совместно подготовлен с &lt;a href="https://twitter.com/GuyFawk26803986"&gt;отличным человеком&lt;/a&gt;, который очень мне помогает донести до вас эту информацию.&lt;/p&gt;
+&lt;p&gt;И так. Сегодня мы говорим о &lt;strong&gt;ZeroNet&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="ZeroNet" src="https://freedombelarus.github.io/static/0005/zeronet-logo2.jpg" /&gt;
+&lt;center&gt;&lt;em&gt;ZeroNet&lt;/em&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;h2&gt;Что это такое?&lt;/h2&gt;
+&lt;p&gt;Девиз сети &lt;strong&gt;ZeroNet&lt;/strong&gt; - &lt;em&gt;It's nowhere because it's everywhere!&lt;/em&gt;, что в переводе означает &lt;em&gt;Оно нигде, потому что оно везде&lt;/em&gt;. Так, интересно... Я думаю если сравнить с другими техническими средствами из этой сферы, автору данного проекта уже можно ставить крепкую пятёрку за всякие маркетинговые штуки. Нет, ну вы посмотрите на &lt;a href="https://zeronet.io"&gt;официальный сайт&lt;/a&gt;! Тут все просто, симпатично, лаконично. Из всего того, что мы ранее обозревали, подобным может похвастаться только &lt;strong&gt;Telegram&lt;/strong&gt; (&lt;a href="https://freedombelarus.github.io/about-telegram.html"&gt;обзор&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Ладно, это всё лирика, давайте по делу.&lt;/p&gt;
+&lt;h2&gt;Как это работает?&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;ZeroNet&lt;/strong&gt; работает на базе протокола &lt;strong&gt;BitTorrent&lt;/strong&gt; (всеми нами любимые торренты) и с использованием криптографии &lt;strong&gt;Bitcoin&lt;/strong&gt; (которая уже несколько лет доказывает свою стойкость).&lt;/p&gt;
+&lt;p&gt;Если совсем простым языком, то эта штука позволяет закинуть набор html + js + css в специальную папку. Получится на местном жаргоне &lt;em&gt;зайт&lt;/em&gt; (это как сайт, только внутри &lt;strong&gt;ZeroNet&lt;/strong&gt;). После этого, каждый посетитель вашего &lt;em&gt;зайта&lt;/em&gt; как бы скачивает его целиком себе и дальше раздаёт его другим посетителям, словно фильм на торрентах. Похожий результат можно наблюдать в &lt;strong&gt;RetroShare&lt;/strong&gt; или &lt;strong&gt;Freenet&lt;/strong&gt; (об этих программах и сетях я возможно расскажу в будущем) за одним, очень большим, отличием. &lt;strong&gt;ZeroNet&lt;/strong&gt; предоставляет &lt;em&gt;зайтам&lt;/em&gt; особые функции, которые позволяют сделать из обычного статического сайта (вроде этого вот блога) вполне себе интерактивный сайт, не уступающим многим сайтам в Интернете. Внутри &lt;strong&gt;ZeroNet&lt;/strong&gt; каждый может сделать свой сайт, блог, форум и ничего не платить за это. Ведь &lt;em&gt;зайты&lt;/em&gt; будут храниться на компьютерах ваших посетителей.&lt;/p&gt;
+&lt;p&gt;Конечно же в этом всем, на текущий момент, есть некоторые ограничения, которых нет в обычном Интернете, но они в основном мешают коммерческим аналогам в современной сети. Ведь все данные &lt;em&gt;зайта&lt;/em&gt; передаются от посетителя к посетителю и таки образом доступны всем и нет возможности хранить какие-либо приватные данные. Возможно в будущем это можно будет исправить.&lt;/p&gt;
+&lt;p&gt;Проект находится в активной разработке и на момент работы над статьёй позволяет комфортно общаться с другими пользователями, быстро и легко завести бесплатный блог, отсутствует реклама, а разработчик в скором обещает крутую фишку, которая позволит делать аналоги &lt;strong&gt;современных социальных сетей&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2&gt;Что мы с этого имеем?&lt;/h2&gt;
+&lt;p&gt;Ну во-первых - в данной сети ничего нельзя удалить, заблокировать, нарочно сделать недоступным. Тут маркетинговая фраза из начала поста очень хорошо характеризует сеть. "&lt;em&gt;Оно нигде, потому что оно везде&lt;/em&gt;" означает то, что нельзя добраться до какого-то конкретного узла сети и заблокировать его так, чтобы все пользователи не смогли иметь доступ к &lt;em&gt;зайтам&lt;/em&gt;, которые расположены на этом узле, т.к. эти самые &lt;em&gt;зайты&lt;/em&gt; уже есть у его посетителей и это не даст остановить распространение. Заблокировать всех тоже вряд ли удастся.&lt;/p&gt;
+&lt;p&gt;Во-вторых - &lt;strong&gt;ZeroNet&lt;/strong&gt; может работать через &lt;strong&gt;Tor&lt;/strong&gt; что позволит скрыть факт вашего участия в сети, затрудняет вплоть до невозможного поиск автора контента. Сама по себе сеть не считается анонимной, поэтому рекомендую использовать вместе с &lt;strong&gt;Tor&lt;/strong&gt;. Или можете находиться там не скрывая своей личности, подозреваю, что репрессии за использование этой сети будут очень не скоро.&lt;/p&gt;
+&lt;p&gt;В-третьих - базовые &lt;em&gt;зайты&lt;/em&gt; действительно впечатляют. Там тебе и шифрованная почта, которая работает схожим с &lt;strong&gt;BitMessage&lt;/strong&gt; [&lt;a href="https://freedombelarus.github.io/about-bitmessage.html"&gt;обзор&lt;/a&gt;] образом, форумы на разных языках (включая русский), блоги (пока в основном блоги разработчиков, но это совсем не обязательное требование), списки все тех же торрентов (на этот раз обычных). Всё это действительно сделано с душой, выглядит приятно (чего опять же не скажешь о многих других анонимных средствах).&lt;/p&gt;
+&lt;p&gt;Думаю это стоит посмотреть своими глазами!&lt;/p&gt;
+&lt;h2&gt;Установка&lt;/h2&gt;
+&lt;p&gt;Процесс установки достаточно прост. Хоть кто-то из крипто-тусовки сообразил, что такие вещи нужно делать максимально простыми!&lt;/p&gt;
+&lt;p&gt;Как обычно - открываем наш &lt;strong&gt;TorBrowser&lt;/strong&gt; [&lt;a href="https://freedombelarus.github.io/about-tor.html"&gt;что это?&lt;/a&gt;] и скачиваем файл &lt;a href="https://github.com/HelloZeroNet/ZeroBundle/raw/master/dist/ZeroBundle-win.zip"&gt;отсюда&lt;/a&gt; (посетите &lt;a href="https://zeronet.io/"&gt;https://zeronet.io/&lt;/a&gt;, если у вас не Windows)&lt;/p&gt;
+&lt;p&gt;Распакуйте содержимое архива в любое место, где &lt;strong&gt;нет кириллицы&lt;/strong&gt; в путях (например &lt;em&gt;D:\zeronet&lt;/em&gt;).&lt;/p&gt;
+&lt;h2&gt;Запуск&lt;/h2&gt;
+&lt;p&gt;Нужно отметить, что запуск для анонимного пользования несколько отличается от обычного запуска. В последнем случае достаточно кликнуть дважды по иконке, а для соединения через &lt;strong&gt;Tor&lt;/strong&gt; придётся немного по-шаманить.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Обычный запуск ZeroNet" src="https://freedombelarus.github.io/static/0005/01.png" /&gt;
+&lt;center&gt;&lt;em&gt;Обычный запуск ZeroNet&lt;/em&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;Для запуска &lt;strong&gt;ZeroNet&lt;/strong&gt; через &lt;strong&gt;Tor&lt;/strong&gt; нам нужно открыть командную строку (&lt;strong&gt;TorBrowser&lt;/strong&gt; конечно же тоже должен быть запущен). Переходим в папку с распакованным &lt;strong&gt;ZeroNet&lt;/strong&gt; приблизительно следующим образом:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="cmd.exe" src="https://freedombelarus.github.io/static/0005/02.png" /&gt;
+&lt;center&gt;&lt;em&gt;cmd.exe&lt;/em&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;:: Меняем букву диска
+D:\
+:: Переходим в папку ZeroNet
+cd zeronet\ZeroBundle
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;img alt="Запуск через cmd.exe" src="https://freedombelarus.github.io/static/0005/03.png" /&gt;
+&lt;center&gt;&lt;em&gt;Запуск через cmd.exe&lt;/em&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;:: Запускаем
+zeronet.cmd --tor always --tor_proxy 127.0.0.1:9150 --tor_controller 127.0.0.1:9151
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;А после открываем в &lt;strong&gt;TorBrowser&lt;/strong&gt; ссылку &lt;a href="http://127.0.0.1:43110/"&gt;http://127.0.0.1:43110/&lt;/a&gt;. &lt;strong&gt;Включите JavaScript&lt;/strong&gt;. Весть &lt;strong&gt;ZeroNet&lt;/strong&gt; работает на нём. Первая загрузка может занять некоторое время, но все равно это не должно быть слишком долго.&lt;/p&gt;
+&lt;p&gt;Эту неприятную процедуру придётся выполнять каждый раз, когда вы захотите запустить &lt;strong&gt;ZeroNet&lt;/strong&gt;, однако это дело можно вынести в отдельный ярлычок, я могу рассказать подробнее в комментариях, если попросите.&lt;/p&gt;
+&lt;p&gt;Если все прошло гладко, то, после загрузки, вы увидите вот такую приветственную страницу:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Домашняя страница ZeroNet по-умолчанию" src="https://freedombelarus.github.io/static/0005/04.png" /&gt;
+&lt;center&gt;&lt;em&gt;Домашняя страница ZeroNet по-умолчанию&lt;/em&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;h2&gt;Регистрация идентификатора&lt;/h2&gt;
+&lt;p&gt;Хочу отметить важный нюанс в регистрации. Пока единственное место, которое вызывает у меня большие вопросы.&lt;/p&gt;
+&lt;p&gt;Регистрация тут одна на все ресурсы, причём вам не нужно придумывать пароль для неё. Достаточно проделать пару кликов, а совсем уж параноикам придется вернуться к &lt;a href="https://freedombelarus.github.io/about-bitmessage.html"&gt;&lt;strong&gt;BitMessage&lt;/strong&gt;&lt;/a&gt; и провести регистрацию через него.&lt;/p&gt;
+&lt;p&gt;Для простоты прокрутим страницу вниз и перейдем в &lt;em&gt;ZeroMail&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="ZeroMail на домашней странице" src="https://freedombelarus.github.io/static/0005/05.png" /&gt;
+&lt;center&gt;&lt;em&gt;ZeroMail на домашней странице&lt;/em&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;При клике начнется загрузка, после которой мы увидим что-то похожее на это:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="ZeroMail" src="https://freedombelarus.github.io/static/0005/06.png" /&gt;
+&lt;center&gt;&lt;em&gt;ZeroMail&lt;/em&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;Жмём на &lt;em&gt;Select username&lt;/em&gt; и сверху справа появится небольшая "выпадашка":&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Попытка авторизации" src="https://freedombelarus.github.io/static/0005/07.png" /&gt;
+&lt;center&gt;&lt;em&gt;Попытка авторизации&lt;/em&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;Выбираем &lt;em&gt;zeroid.bit&lt;/em&gt; и попадаем на страницу регистрации, которая совсем не похожа на ранее известные вам страницы регистрации:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Страница регистрации zeroid.bit" src="https://freedombelarus.github.io/static/0005/08.png" /&gt;
+&lt;center&gt;&lt;em&gt;Страница регистрации zeroid.bit&lt;/em&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Нажимаем на Get auth cert, а параноики вроде мения тут же нажимают на or use Bitmessage" src="https://freedombelarus.github.io/static/0005/09.png" /&gt;
+&lt;center&gt;&lt;em&gt;Нажимаем на Get auth cert, а параноики вроде мения тут же нажимают на or use Bitmessage&lt;/em&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;Появляется резонный вопрос, а в чём разница? Дело в том, что &lt;em&gt;zeroid.bit&lt;/em&gt; должен каким-либо образом привязать ваш компьютер к выбранному username (мне сложно рассказать техническую сторону данного процесса, либо верьте на слово, либо попробуйте разобраться сами). И &lt;em&gt;zeroid.bit&lt;/em&gt; предлагает два пути:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Отправить обычный запрос в обычный Интернет&lt;/li&gt;
+&lt;li&gt;Получить от вас письмо из сети &lt;strong&gt;BitMessage&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;И я предпочитаю второй для анонимности, хотя если вы проходите данную процедуру через &lt;strong&gt;TorBrowser&lt;/strong&gt;, то в общем и целом разница не так уж и велика.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Выбираем нужный username" src="https://freedombelarus.github.io/static/0005/10.png" /&gt;
+&lt;center&gt;&lt;em&gt;Выбираем нужный username&lt;/em&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;И если вы выбрали &lt;strong&gt;BitMessage&lt;/strong&gt;, то открываем его (ведь он уже установлен с &lt;a href="https://freedombelarus.github.io/about-bitmessage.html"&gt;прошлого урока&lt;/a&gt;, правда?), заводим новый адрес, отправляем с него письмо, вставив адрес получатели и тело сообщения так, как написано на сайте.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Регистрация через BitMessage" src="https://freedombelarus.github.io/static/0005/11.png" /&gt;
+&lt;center&gt;&lt;em&gt;Регистрация через BitMessage&lt;/em&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;Отправляем, начинаем некоторое время пялиться в &lt;em&gt;zeroid.bit&lt;/em&gt; и ждать, пока он нас уведомит об успешной регистрации. Возвращаемся в ZeroMail (на домашнюю можно попасть нажав на символ "0" в правом верхнем углу), еще раз &lt;em&gt;Select username&lt;/em&gt; и в "выпадашке" уже будет наш username. Тыкаем в него и получаем нашу секретную почту, которая по своей работе очень похожа на &lt;strong&gt;BitMessage&lt;/strong&gt;, только привычнее и понятнее. И симпатичнее.&lt;/p&gt;
+&lt;h2&gt;Вход под зарегистрированным аккаунтом с другого компьютера или после переустановки&lt;/h2&gt;
+&lt;p&gt;Окей, мы выбрали username, сделали пару непонятных действий, а теперь что, любой может войти под выбранным username? Никак нет. Дело в том, что в рабочей папке &lt;strong&gt;ZeroNet&lt;/strong&gt; есть файл, где хранится ваш криптографический ключ, без которого нельзя использовать username. Так же, нет никакого способа вернуть этот ключ назад при утере. Поэтому крайне рекомендую сохранить файл, который находится по пути &lt;code&gt;&amp;lt;папка, где установлен ZeroNet&amp;gt;\data\users.json&lt;/code&gt;, куда-нибудь в другое место, чтобы в случае переустановки или необходимости зайти с другого компьютера, вы могли использовать ваш же username, а не регистрировать новый.&lt;/p&gt;
+&lt;h2&gt;Дополнительно&lt;/h2&gt;
+&lt;p&gt;Сеть только развивается, поэтому основные ресурсы там на английском. Есть небольшое количество русскоязычного комьюнити:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Ru-ZeroTalk" src="https://freedombelarus.github.io/static/0005/12.png" /&gt;
+&lt;center&gt;&lt;em&gt;Ru-ZeroTalk&lt;/em&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;О беларуском пока говорить рано, однако мы его можем зародить сами.&lt;/p&gt;
+&lt;p&gt;Так же в интернете есть так называемые &lt;em&gt;гейты&lt;/em&gt; (или врата) в сеть &lt;strong&gt;ZeroNet&lt;/strong&gt;, на случай, если вы хотите ознакомится с сетью без установки. Вот один из них: &lt;a href="https://bit.no.com:43110/"&gt;bit.no.com&lt;/a&gt;. Попробуйте, это может быть интересно!&lt;/p&gt;
+&lt;p&gt;О том, как в пару кликов завести свой блог: &lt;a href="http://127.0.0.1:43110/Blog.ZeroNetwork.bit/?Post:3:How+to+have+a+blog+like+this"&gt;в сети &lt;strong&gt;ZeroNet&lt;/strong&gt;&lt;/a&gt; (&lt;a href="https://bit.no.com:43110/Blog.ZeroNetwork.bit/?Post:3:How+to+have+a+blog+like+this"&gt;прокси&lt;/a&gt;). Легко начать, достаточно кому-нибудь скинуть ссылку на ваш блог, зайти на него через тот же прокси и получить бесплатный, распределенный блог.&lt;/p&gt;
+&lt;p&gt;Сервис, который функционально похож на нашумевший PopcornTime для просмотра фильмов и сериалов прямо с торрентов: &lt;a href="http://127.0.0.1:43110/1PLAYgDQboKojowD3kwdb3CtWmWaokXvfp/"&gt;Play&lt;/a&gt; (&lt;a href="https://bit.no.com:43110/1PLAYgDQboKojowD3kwdb3CtWmWaokXvfp/"&gt;прокси&lt;/a&gt;) &lt;em&gt;к сожалению исключительно на английском&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;Советы по безопасности&lt;/h2&gt;
+&lt;p&gt;Если у вас в &lt;strong&gt;ZeroNet&lt;/strong&gt; именно анонимная личность, то крайне рекомендую смотреть сайты через &lt;strong&gt;TorBrowser&lt;/strong&gt;, т.к. каждый сайт может неожиданно отправить вас в обычный Интернет (вставив картинку с обычного сайта или сделав переадресацию). К тому же всё работает на &lt;em&gt;JavaScript&lt;/em&gt;, это тоже может сделать вас уязвимым для атак.&lt;/p&gt;
+&lt;h2&gt;Минусы&lt;/h2&gt;
+&lt;p&gt;Как обычно отметим некоторое количество минусов&lt;/p&gt;
+&lt;h3&gt;2,5 серьёзных проекта&lt;/h3&gt;
+&lt;p&gt;Сеть относительно новая, поэтому там огромное количество форумов, блогов, каталогов ссылок, а к серьезным проектам можно отнести разве что &lt;strong&gt;Play&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3&gt;Неочевидная, немного опасная регистрация&lt;/h3&gt;
+&lt;p&gt;Подробности расписаны в разделе про регистрацию&lt;/p&gt;
+&lt;h3&gt;JavaScript как основной и единственный способ разрабатывать динамические "зайты"&lt;/h3&gt;
+&lt;p&gt;Нет, я конечно понимаю, что иного варианта нет, получился бы очередной &lt;strong&gt;Freenet&lt;/strong&gt;, не будь там этого. Однако в современном мире среди параноиков не так много доверия к этому языку, хоть в интернете он и используется повсеместно.&lt;/p&gt;
+&lt;h3&gt;Доступ с мобильного&lt;/h3&gt;
+&lt;p&gt;Есть несколько извращенных способов попасть в &lt;strong&gt;ZeroNet&lt;/strong&gt; с телефона\планшета, однако это действительно извращение. Нужно отметить, что на текущий момент сеть все же находится в разработке и имеет другие приоритеты. Теоретически, запустить это на телефоне возможно, однако практически мы опять уткнёмся в достаточно большое потребление трафика, батареи и ресурсов.&lt;/p&gt;
+&lt;h2&gt;Традиционное послесловие&lt;/h2&gt;
+&lt;p&gt;Очень многообщающий проект, затрагивает важные и актуальные на сегодняшний день проблемы, имеет приятный интерфейс, продолжает развиваться. Я даже поверил в то, что данный проект может стать прототипом Интернета будущего. Свободного, децентрализованного, бесплатного.&lt;/p&gt;</summary><category term="Софт"></category><category term="Анонимность"></category><category term="ZeroNet"></category><category term="Tor"></category><category term="BitMessage"></category><category term="Telegram"></category><category term="BitTorrent"></category><category term="Bitcoin"></category><category term="RetroShare"></category><category term="Freenet"></category><category term="i2p"></category><category term="Windows"></category><category term="Microsoft"></category><category term="Play"></category></entry><entry><title>Обзор и разбор программы Telegram</title><link href="https://freedombelarus.github.io/about-telegram.html" rel="alternate"></link><published>2016-06-30T11:45:00+03:00</published><author><name>Anonymous</name></author><id>tag:freedombelarus.github.io,2016-06-30:about-telegram.html</id><summary type="html">&lt;p&gt;Сегодня я бы хотел затронуть один довольно популярный мессенджер, который называется &lt;strong&gt;Telegram&lt;/strong&gt;.&lt;/p&gt;
 &lt;h2&gt;Что это такое?&lt;/h2&gt;
 &lt;p&gt;Был один такой дядя, звали его Павел Дуров. Был у него проект, назывался он &lt;a href="https://vk.com/"&gt;ВКонтакте&lt;/a&gt;. Потом Павел вступил в конфронтацию с властями и ВКонтактик у него отжали. Чуть подумав, как дальше жить, Павел плюнул на всех, взял своего брата, Николая, и пошли они новую соц. сеть пилить. Да так, чтобы не похоже было. Так появился на свет &lt;strong&gt;Telegram&lt;/strong&gt;, функциональный мессенджер с социальными возможностями.&lt;/p&gt;
 &lt;p&gt;&lt;center&gt;&lt;img alt="Logo" src="https://freedombelarus.github.io/0004/t_logo.png" /&gt;&lt;/center&gt;
